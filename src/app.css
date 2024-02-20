@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 * {
-  outline: solid 1px red;
+  /* outline: solid 1px red; */
 }
 
 .sidebar-icon {
@@ -20,5 +20,5 @@
   @apply absolute w-auto p-2 m-2 
   min-w-max left-28 top-4 rounded-md shadow-md
   bg-gray-900 text-white text-xs font-bold
-  transition-all duration-100 origin-left
+  transition-all duration-100 origin-left scale-0
 }

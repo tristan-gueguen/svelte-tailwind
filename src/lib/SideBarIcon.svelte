@@ -4,7 +4,7 @@
     export const text = 'tooltip'
 
 </script>
-<div class="relative">
+<div class="relative group">
     <Icon icon="{iconName}" class="sidebar-icon" />
-    <span class="sidebar-tooltip">{text}</span>
+    <span class="sidebar-tooltip group-hover:scale-100">{text}</span>
 </div>

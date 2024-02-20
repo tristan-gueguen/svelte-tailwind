@@ -1,5 +1,9 @@
 <script>
   import "../app.css";
+	import SideBar from "../lib/SideBar.svelte";
 </script>
 
-<slot />
+<div>
+  <SideBar />
+  <slot />
+</div>

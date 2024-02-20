@@ -4,8 +4,5 @@ export default {
   theme: {
   },
   plugins: [],
-  corePlugins: {
-    preflight: false
-  }
 }
 

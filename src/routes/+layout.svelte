@@ -3,7 +3,7 @@
 	import SideBar from "../lib/SideBar.svelte";
 </script>
 
-<div>
+<div class="dark">
   <SideBar />
-  <slot />
+<slot />
 </div>

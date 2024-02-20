@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 * {
-  /* outline: solid 1px red; */
+  outline: solid 1px red;
 }
 
 .sidebar-icon {
@@ -14,4 +14,11 @@
   rounded-3xl hover:rounded-xl
   transition-all duration-200 ease-linear
   cursor-pointer
+}
+
+.sidebar-tooltip {
+  @apply absolute w-auto p-2 m-2 
+  min-w-max left-28 top-4 rounded-md shadow-md
+  bg-gray-900 text-white text-xs font-bold
+  transition-all duration-100 origin-left
 }

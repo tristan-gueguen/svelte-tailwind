@@ -3,9 +3,15 @@
 @tailwind utilities;
 
 * {
-  outline: solid 1px red;
+  /* outline: solid 1px red; */
 }
 
 .sidebar-icon {
-  /* todo */
+  @apply relative flex items-center justify-center 
+  h-[60px] w-[60px] mx-auto my-2 px-3
+  shadow-lg bg-gray-700 text-green-400
+  hover:bg-green-700 hover:text-white
+  rounded-3xl hover:rounded-xl
+  transition-all duration-200 ease-linear
+  cursor-pointer
 }
